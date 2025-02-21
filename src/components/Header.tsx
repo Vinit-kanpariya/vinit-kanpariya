@@ -33,9 +33,10 @@ export default function Header() {
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-6 text-lg mr-4">
         <Link href="/" className="hover:text-cyan-400 transition">Home</Link>
-        <Link href="#experience" className="hover:text-cyan-400 transition">Experience</Link>
         <Link href="#projects" className="hover:text-cyan-400 transition">Projects</Link>
-        <Link href="#Contact" className="hover:text-cyan-400 transition">Contact</Link>
+        <Link href="#experience" className="hover:text-cyan-400 transition">Experience</Link>
+        <Link href="#about" className="hover:text-cyan-400 transition">About</Link>
+        <Link href="#contact" className="hover:text-cyan-400 transition">Contact</Link>
       </nav>
 
       {/* Mobile Menu Icon */}
@@ -56,9 +57,10 @@ export default function Header() {
             className="absolute top-16 right-6 w-1/2 md:right-6 z-50 bg-white text-gray-900 shadow-md rounded-lg flex flex-col items-center space-y-4 py-4"
           >
             <Link href="/" className="hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>Home</Link>
-            <Link href="#experience" className="hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>Experience</Link>
             <Link href="#projects" className="hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>Projects</Link>
-            <Link href="#Contact" className="hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>Contact</Link>
+            <Link href="#experience" className="hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>Experience</Link>
+            <Link href="#about" className="hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>About</Link>
+            <Link href="#contact" className="hover:text-blue-600 transition" onClick={() => setMenuOpen(false)}>Contact</Link>
           </motion.nav>
         )}
       </AnimatePresence>

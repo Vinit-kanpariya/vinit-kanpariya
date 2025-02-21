@@ -39,7 +39,7 @@ export default function Experience() {
   };
 
   return (
-    <section className="relative bg-gray-900 py-16 px-6 sm:px-8 lg:px-16 xl:px-24">
+    <section id="experience" className="relative bg-gray-900 pt-16 px-6 sm:px-8 lg:px-16 xl:px-24">
       <h2 className="text-center text-3xl font-bold text-cyan-400 mb-12">
         Experience & Education
       </h2>

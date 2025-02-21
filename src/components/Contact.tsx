@@ -37,7 +37,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="pb-10 bg-gray-900 px-6">
+    <section id="contact" className="py-10 bg-gray-900 px-6">
       <h2 className="text-center text-3xl font-bold text-cyan-400 mb-8">Get in Touch</h2>
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto space-y-4">
         <input

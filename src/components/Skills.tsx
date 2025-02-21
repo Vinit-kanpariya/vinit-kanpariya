@@ -23,7 +23,7 @@ export default function Skills() {
   }, []);
 
   return (
-    <section className="pb-16 px-6 bg-gray-900">
+    <section className="px-6 bg-gray-900">
       <h2 className="text-center text-3xl font-bold text-cyan-400 mb-8">Skills & Tech Stack</h2>
       <div ref={scrollRef} className="flex flex-wrap justify-center gap-6">
         {skills.map((skill, index) => (

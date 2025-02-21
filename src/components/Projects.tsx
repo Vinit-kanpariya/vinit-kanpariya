@@ -1,8 +1,15 @@
-import { projects } from "@/utils/data";
+"use client";
+
+export const projects = [
+  { id: 1, title: "Weather App", description: "Built using Next.js, Tailwind, and OpenWeather API.", link: "https://weatherio-mocha.vercel.app",github:"https://github.com/vinit-kanpariya/weatherio" },
+  { id: 2, title: "Portfolio Website", description: "Personal portfolio with Framer Motion animations.", link: "https://vinit-kanpariya.vercel.app",github:"https://github.com/vinit-kanpariya/vinit-kanpariya" },
+  { id: 3, title: "Tic-Tac-Toe", description: "Built using Next.js and Tailwind CSS.", link: "https://vinit-tic-tac-toe.netlify.app/",github:"https://github.com/vinit-kanpariya/tic-tac-toe" },
+  { id: 4, title: "Thekalyugart", description: "Built using Next.js and Tailwind CSS.", link: "https://thekalyugart.com/",github:"#github" },
+];
 
 export default function Projects() {
   return (
-    <section className="px-6 sm:px-8 lg:px-16 bg-gray-900">
+    <section id="projects" className="px-6 pt-16 sm:px-8 lg:px-16 bg-gray-900">
       <h2 className="text-center text-3xl font-bold text-cyan-400 mb-12">
         Projects
       </h2>
@@ -11,7 +18,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {projects.map((project, index) => (
           <div
-            className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-cyan-400 transition transform hover:-translate-y-1"
+            className="bg-gray-800 p-6 rounded-lg"
             key={index}
           >
             <h3 className="text-xl text-center font-bold text-white mb-2">
