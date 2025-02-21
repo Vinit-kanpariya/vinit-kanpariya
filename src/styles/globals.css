@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white;
+}
+
+/* Mobile-first typography */
+h1 {
+  @apply text-3xl md:text-5xl;
+}
+
+p {
+  @apply text-base md:text-lg;
+}
