@@ -18,7 +18,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         {projects.map((project, index) => (
           <div
-            className="bg-gray-800 p-6 rounded-lg"
+            className="bg-gray-800 p-6 rounded-lg transition-transform transform hover:scale-105 hover:bg-gray-700 hover:shadow-2xl focus:shadow-2xl focus:outline-none"
             key={index}
           >
             <h3 className="text-xl text-center font-bold text-white mb-2">

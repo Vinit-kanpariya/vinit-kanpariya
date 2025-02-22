@@ -32,7 +32,7 @@ export default function About() {
 
         {/* Text Content */}
         <div className="lg:w-1/2 flex flex-col justify-center text-center lg:text-left lg:p-12">
-          <p className="text-gray-300">
+          <p className="text-gray-300 mt-10">
             I&apos;m a young explorer at heart, drawn to the untamed beauty of nature and the thrill of pushing my limits. Mountains are my escape, where every climb feels like a new adventure. Sports keep my energy high, fueling my competitive spirit, while coding is my creative playground—where ideas come to life with every keystroke. Whether I’m scaling peaks, chasing a ball, or crafting digital experiences, I embrace every challenge with passion and curiosity.
           </p>
         </div>
