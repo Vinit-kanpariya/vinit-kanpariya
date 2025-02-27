@@ -6,9 +6,9 @@ export default function Hero() {
   return (
     <div className="relative">
       {/* Hero Section */}
-      <section className="flex flex-col-reverse md:flex-row justify-between items-center text-center md:text-left bg-gray-900 relative overflow-hidden px-6 py-12 md:px-16 md:py-20 lg:py-24 sm:min-h-[600px] md:min-h-screen lg:min-h-screen">
+      <section className="flex flex-col-reverse md:flex-row justify-center items-center text-center md:text-left bg-gray-900 relative overflow-hidden px-6 py-12 md:px-16 md:py-20 lg:py-24 h-screen sm:h-[80vh] md:h-screen">
         {/* Hero Content */}
-        <div className="flex flex-col md:w-1/2 space-y-6">
+        <div className="flex flex-col md:w-1/2 space-y-6 md:space-y-8">
           <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-cyan-400 leading-tight">
             Hi, I&apos;m a Frontend Engineer
           </h1>
@@ -26,7 +26,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center md:w-1/2 w-full mt-10 md:mt-0 relative">
+        <div className="flex justify-center items-center md:w-1/2 w-full mt-4 md:mt-0 relative">
           <div className="bg-gray-800 p-4 sm:p-6 md:p-8 mb-6 rounded-lg shadow-lg border border-gray-700 w-full max-w-sm sm:max-w-md md:max-w-lg min-h-[250px] sm:min-h-[300px] md:min-h-[350px] flex items-start">
             <pre className="text-green-400 text-sm sm:text-md md:text-lg font-mono whitespace-pre-wrap text-left">
               <ReactTyped
